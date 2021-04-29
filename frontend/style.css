@@ -1,0 +1,72 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #ffd5c2;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    background-image: linear-gradient(to right, #ff5050, #ffac47, #ffd745, #74ff54, #6cbbff, #ae45ff);
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+.form-wrapper {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+fieldset {
+    padding: 20px;
+    border-radius: 10px;
+    color: #2f004f;
+    border: 1px solid seashell;
+}
+input[type='text'],
+input[type='password'],
+input[type='submit'],
+label {
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type='submit'] {
+    background-color: #a5ffa2;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.success {
+    margin: auto;
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    input[type='text'],
+    input[type='password'],
+    input[type='submit'] {
+        display: inline-block;
+    }
+    .form-wrapper {
+        max-width: 400px;
+        margin: auto;
+    }
+}

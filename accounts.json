@@ -1,0 +1,34 @@
+{
+  "accounts": [
+    {
+      "username": "Test",
+      "password": "test123",
+      "email": "test@test.com"
+    },
+    {
+      "username": "Grem",
+      "password": "123",
+      "email": "grem@test.com"
+    },
+    {
+      "username": "Cade",
+      "password": "123",
+      "email": "cade@test.com"
+    },
+    {
+      "username": "Doge",
+      "password": "123",
+      "email": "doge@test.com"
+    },
+    {
+      "username": "Ann",
+      "password": "123",
+      "email": "ann@test.com"
+    },
+    {
+      "username": "Gremlet",
+      "password": "123",
+      "email": "gremmy@test.com"
+    }
+  ]
+}
